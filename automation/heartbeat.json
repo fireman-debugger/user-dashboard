@@ -1,0 +1,31 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "service": "user-dashboard",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "database": {
+      "status": "connected",
+      "responseTime": 25
+    },
+    "api": {
+      "status": "healthy",
+      "responseTime": 15
+    },
+    "cache": {
+      "status": "healthy",
+      "size": "128MB"
+    }
+  },
+  "metrics": {
+    "cpuUsage": 0.15,
+    "memoryUsage": 0.60,
+    "activeUsers": 1250,
+    "requestsPerMinute": 300
+  },
+  "buildInfo": {
+    "commitHash": "a1b2c3d4e5f6",
+    "buildDate": "2024-10-26T18:00:00Z"
+  }
+}
